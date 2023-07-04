@@ -36,7 +36,7 @@ $(document).ready(function () {
     // END
 
     // gnb
-    $('.gnb_btn').on('click', function () {
+    $(document).on('click','.gnb_btn', function () {
         $(this).closest('.header_inner').toggleClass('active');
         if ($('.header_inner').hasClass('active')) {
             $('html, body').addClass('on');
