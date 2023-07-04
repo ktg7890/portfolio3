@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <title>Aroniti</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Aroniti">
+    <meta name="description" content="Aroniti">
+    <meta property="og:description" content="Aroniti">
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="preload" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css" />
+
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css" />
+
+    <link rel="preload" as="style" href="../css/base.css" />
+    <link rel="preload" as="style" href="../css/layout.css" />
+    <link rel="preload" as="style" href="../css/common.css" />
+    <link rel="preload" as="style" href="../css/main.css" />
+    <link rel="preload" as="style" href="../css/main_m.css" />
+    <link rel="preload" as="style" href="../css/sub.css" />
+    <link rel="preload" as="style" href="../css/sub_m.css" />
+
+
+    <link type="text/css" rel="stylesheet" href="../css/base.css" />
+    <link type="text/css" rel="stylesheet" href="../css/layout.css" />
+    <link type="text/css" rel="stylesheet" href="../css/common.css" />
+    <link type="text/css" rel="stylesheet" href="../css/main.css" />
+    <link type="text/css" rel="stylesheet" href="../css/main_m.css" />
+    <link type="text/css" rel="stylesheet" href="../css/sub.css" />
+    <link type="text/css" rel="stylesheet" href="../css/sub_m.css" />
+
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/jquery.waypoints.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script type="text/javascript" src="../js/test.js"></script>
+</head>
+
+<body>
+
+
+    <!--Wrap-->
+    <div id="wrap">
+
+        <!-- top_btn -->
+        <button type="button" class="top_btn" onclick="goPageTop();"></button>
+        <!-- END top_btn -->
+
+
+
+
+        <!-- container -->
+        <div id="container" class="sub_container">
+
+            <div data-include-path="header.html" data-index="sub05"></div>
+
+            <div class="sub_con">
+                <div class="inner">
+                    <div class="sub_common_tit">고객센터</div>
+                    <div class="sub_common_sub_tit">고객센터를 설명하는 멘트가 간략하게 들어갑니다.</div>
+
+                    <div class="event_box">
+                        <div class="sub_page_link_box flex">
+                            <a href="../html/contact.html" class="link active">공지사항</a>
+                            <a href="../html/contact_faq.html" class="link ">FAQ</a>
+                            <a href="../html/contact_alliance.html" class="link ">제휴신청</a>
+                        </div>
+
+                        <form id="" class="" action="">
+                            <div class="common_search_box flex_s">
+                                <div class="total">
+                                    전체
+                                    <span><span class="num">1,021</span>건</span>
+                                </div>
+                                <div class="right flex_c">
+                                    <select class="seacrh_select" name="" id="">
+                                        <option value="">전체</option>
+                                    </select>
+                                    <div class="search_form_box">
+                                        <input type="text" placeholder="검색어 입력">
+                                        <button type="button" class="search_btn"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="common_table_box">
+                            <div class="table_box table_head flex_c">
+                                <div class="num">번호</div>
+                                <div class="title">제목</div>
+                                <div class="right_box flex_c">
+                                    <div class="file">첨부파일</div>
+                                    <div class="view">조회</div>
+                                    <div class="date">날짜</div>
+                                </div>
+                            </div>
+                            <!-- notice 클래스가 들어가면 공지 스타일 적용 -->
+                            <a href="../html/contact_view.html" class="table_box table_body flex_c notice">
+                                <div class="num">3</div>
+                                <div class="title flex_c text_ov">
+                                    <div class="label">공지</div>
+                                    <span class="text_ov">상단 고정 공지글 입니다.</span>
+                                </div>
+                                <div class="right_box flex_c">
+                                    <div class="file flex_c">
+                                        <div class="img_icon"><img src="../image/sub/file_icon.svg" alt=""></div>
+                                    </div>
+                                    <div class="view">999</div>
+                                    <div class="date">2023.02.21 14:00</div>
+                                </div>
+                            </a>
+                            <a href="javascript:;" class="table_box table_body flex_c">
+                                <div class="num">2</div>
+                                <div class="title flex_c text_ov">
+                                    <span class="text_ov">공지글 제목이 표시됩니다.</span>
+                                </div>
+                                <div class="right_box flex_c">
+                                    <div class="file flex_c">
+                                        <!-- <div class="img_icon"><img src="../image/sub/file_icon.svg" alt=""></div> -->
+                                    </div>
+                                    <div class="view">999</div>
+                                    <div class="date">2023.02.21 14:00</div>
+                                </div>
+                            </a>
+                            <a href="javascript:;" class="table_box table_body flex_c">
+                                <div class="num">1</div>
+                                <div class="title flex_c text_ov">
+                                    <span class="text_ov">공지글 제목이 표시됩니다.</span>
+                                </div>
+                                <div class="right_box flex_c">
+                                    <div class="file flex_c">
+                                        <div class="img_icon"><img src="../image/sub/file_icon.svg" alt=""></div>
+                                    </div>
+                                    <div class="view">999</div>
+                                    <div class="date">2023.02.21 14:00</div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="common_page_nav flex_c">
+                            <a href="javascript:;" class="img_icon left"><img src="../image/sub/page_left.svg"
+                                    alt=""></a>
+                            <div class="page_num flex_c">
+                                <!-- active 클래스가 들어가면 스타일이 들어갑니다. -->
+                                <a href="javascript:;" class="active">1</a>
+                                <a href="javascript:;">2</a>
+                            </div>
+                            <a href="javascript:;" class="img_icon right"><img src="../image/sub/page_right.svg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- END container -->
+    </div>
+</body>
+<div data-include-path="footer.html"></div>
